@@ -18,6 +18,8 @@ module.exports = {
   },
   plugins: ['jest'],
   rules: {
+    'indent': ['error', 2],
+    'quotes': ['error', 'single'],
     'no-console': 'off',
     'no-shadow': 'off',
     'no-restricted-syntax': [
