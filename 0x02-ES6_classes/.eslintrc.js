@@ -18,9 +18,6 @@ module.exports = {
   },
   plugins: ['jest'],
   rules: {
-    'import/extensions': ['error', 'never'],
-    'indent': ['error', 2],
-    'quotes': ['error', 'single'],
     'max-classes-per-file': 'off',
     'no-underscore-dangle': 'off',
     'no-console': 'off',
