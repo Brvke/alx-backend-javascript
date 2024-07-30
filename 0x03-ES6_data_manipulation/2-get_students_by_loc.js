@@ -1,8 +1,10 @@
-export default function getStudentsByLocation(array, city) {
-  if (!Array.isArray(array)) {
+// 2-get_students_by_loc.js
+function getStudentsByLocation(students, city) {
+  if (!Array.isArray(students) || typeof city !== 'string') {
     return [];
   }
-
-  const list = array.filter((student) => student.location === city);
-  return list;
+  return students.filter((students) => students.location === city);
 }
+
+export default getStudentsByLocation;
+
